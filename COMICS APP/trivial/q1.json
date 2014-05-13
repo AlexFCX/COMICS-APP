@@ -1,3 +1,12 @@
+{
+	"introduction":"This quiz tests you about foo and goo", 
+	"questions":[
+		{"question":"¿Quién fue encontrado en el hielo?", 
+		 "answers":["Banner","Capitán América","Thor","Iron Man"],
+		 "correct":2},
+		{"question":"¿Qué héroe es más inestable psicológicamente?", 
+		 "answers":["Giant Man","Thor","Hulk","Wasp"],
+		 "correct":3},
 		{"question":"¿Nacionalidad de la Viuda Negra?", 
 		 "answers":["Rusa","Polaca","Estadounidense","Ucraniana"],
 		 "correct":1},
@@ -21,4 +30,6 @@
 		 "correct":1},
 		{"question":"El martillo de Thor se llama...", 
 		 "answers":["Asgard","Odín","Mjonir","Rampage"],
-		 "correct":3}
+		 "correct":3},
+	]
+}
