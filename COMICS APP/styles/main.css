@@ -182,7 +182,8 @@
 #next:hover{ background:#009; color:#FFF; cursor:pointer;}
 
  body {
-            font: normal 12px"Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
+    		background-color:#00FFFF;
+			font: normal 12px"Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
         }
         p {
             margin: 5px 0;
