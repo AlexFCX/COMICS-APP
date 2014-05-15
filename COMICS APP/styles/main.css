@@ -180,9 +180,14 @@
 }
 #next{ width:100px; border:solid 1px #CCC; text-align:center; display:none;}
 #next:hover{ background:#009; color:#FFF; cursor:pointer;}
+.ui-page, .ui-body-page, .ui-page-active, .ui-overlay-c, .ui-mobile-viewport
+ body , .ui-overlay-c{
+		background: url('images/capitan.jpg') no-repeat center center fixed;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 
- body {
-    		background-color:#00FFFF;
 			font: normal 12px"Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
         }
         p {
