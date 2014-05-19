@@ -258,3 +258,7 @@
             font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
             color: black;
         }
+		#background{
+    background-image: url(images/brujaescarlata.png);
+    background-size: cover;
+}
