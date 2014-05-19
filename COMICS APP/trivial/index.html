@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>COMICS APP</title>
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
-        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+        <title>Quiz Demo</title>
+        <link rel="stylesheet" href="../jquery-mobile/styles/jquery.mobile-1.3.1.min.css" />
+        <script src="../jquery-mobile/js/jquery-1.9.1.min.js"></script>
+        <script src="../jquery-mobile/js/jquery.mobile-1.3.1.min.js"></script>
     </head> 
     
     <body> 
@@ -15,20 +15,21 @@
         <div data-role="page">
             
             <div data-role="header">
-                <h1>¿Qué sabes?</h1>
-            </div>
+                <h1>Our Site</h1>
+              <a href="#info" data-role="button" data-icon="back" data-inline="true" data-transition="flow">Atr&aacute;s</a>
+        	</div>
             
             <div data-role="content">
-				<a href="quiz.html" data-role="button">Examen de Ultimate</a>
+				<a href="quiz.html" data-role="button">Start Quiz!</a>
             </div>
             
             <div data-role="footer">
-                <h4>The Ultimates</h4>
+                <h4>Footer content</h4>
             </div>
             
         </div>
 
-		<script src="app.js"></script>
-		<script src="quiz.js"></script>
+        <script src="trivial/app.js"></script>
+        <script src="trivial/quiz.js"></script>
 	</body>
 </html>
