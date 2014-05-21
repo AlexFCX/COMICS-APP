@@ -181,14 +181,7 @@
 #next{ width:100px; border:solid 1px #CCC; text-align:center; display:none;}
 #next:hover{ background:#009; color:#FFF; cursor:pointer;}
 .ui-page, .ui-body-page, .ui-page-active, .ui-overlay-c, .ui-mobile-viewport
- body , .ui-overlay-c{
-		background: url('images/capitan.jpg') no-repeat center center fixed;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-
-			font: normal 12px"Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
+ body{	font: normal 12px"Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
         }
         p {
             margin: 5px 0;
@@ -258,7 +251,17 @@
             font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
             color: black;
         }
-		.background{
-    background-image: url(images/thor.png);
-    background-size: 33% 33%;
+
+body, .ui-overlay-c {
+    background: url(brujaescarlata.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
 }
