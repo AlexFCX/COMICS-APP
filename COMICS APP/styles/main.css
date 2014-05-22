@@ -265,3 +265,8 @@ body, .ui-overlay-c {
 .ui-content{
     background: transparent;
 }
+
+#button{
+    height: 20%;
+    width:20%;
+}
